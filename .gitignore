@@ -3,3 +3,5 @@
 .RData
 .Ruserdata
 **/drafts
+Original_Data/hourly_raw.csv
+Derived_Data/hourly_clean.xlsx
