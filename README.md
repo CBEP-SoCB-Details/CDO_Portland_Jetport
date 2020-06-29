@@ -23,8 +23,6 @@ We principally used two different data sets, both accessed through the API.
 - GHCND.  Global Historical Climatology Network Daily; Daily data; used here to derive length of the growing season, and number of very large storm days (> 2 inches of rain) each year.
 - GSOY (Global Summary of the Year; Yearly Summaries; used here for all other metrics).
 
-=======
-
 # Links to R Notebooks
 ## Data Analysis
 [Growing Season](./Analysis/Analysis_of_length_of_growing_season_3.Rmd)  
