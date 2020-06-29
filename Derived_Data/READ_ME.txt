@@ -1,6 +1,7 @@
 ######################################
 ##  Derivation of "hourly_clean.xlsx" from "hourly_raw.csv"
 ######################################
+Original files have been deleted because of their size and because we did not use them in ay analyses. Originals are availalbe through CBEP.
 
 This data was downloaded and examined, with the hope that we could generate a dataset of true two-day storm totals, but we ran into technical challenges, and decided it was not going to be worth the effort to solve them all.  These data have not been used in further analyses.  These notes are here to in case anyone wants to look at hourly data in the future.
 
