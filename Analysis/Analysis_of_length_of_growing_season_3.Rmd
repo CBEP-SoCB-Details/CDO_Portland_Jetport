@@ -244,4 +244,3 @@ plt +
   scale_y_date(date_breaks='1 month', date_labels = '%b %e') +
   theme(legend.position=c(0.75,0.5))
 ```
-
