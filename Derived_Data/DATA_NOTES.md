@@ -1,7 +1,7 @@
 ######################################
 ##  Derivation of "hourly_clean.xlsx" from "hourly_raw.csv"
 ######################################
-Original files have been deleted because of their size and because we did not use them in ay analyses. Originals are availalbe through CBEP.
+Original files have been deleted because of their size and because we did not use them in any analyses. Originals are available through CBEP.
 
 This data was downloaded and examined, with the hope that we could generate a dataset of true two-day storm totals, but we ran into technical challenges, and decided it was not going to be worth the effort to solve them all.  These data have not been used in further analyses.  These notes are here to in case anyone wants to look at hourly data in the future.
 
@@ -19,8 +19,6 @@ We also have only between 2000 and 3000 hourly observations from several years i
 What I see in those years is
 (1) Time shift from splitting at even hours to spliting a XX:51
 (2) SY_MT results begin to duplicate hourly values at 6 or 12 hour intervals.  From 1996 through 2004, that code is ALMOST always associated with 0:00, 6:00, 12:00, or 18:00 observations.  There is a secondary peak of occurrence around the three hour intervals as well, mostly 1997 through 2001.  A scattering of other time stamps -- each represented by about 20 observations -- turn up beginning in 2002 and continuing to the present.
-
-But I'm still not clear on the relations among different data sources.
 
 SAO appears to offer a complete record from 1948 through 1965.  From 1966 through 1972, it provided complete records, but only every three hours (which suggests other records may be needed for this period).  The record is again NEARLY complete, with missing observations around the 0,6,12, and 18 hour slots, through 1995.  About half way through 1996, the SAO data ends.
 

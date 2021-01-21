@@ -49,11 +49,14 @@ longannualdata %>%
 
 # Annual Minimum, Maximum and Average Temperature
 Codes for Key Temperature records in the downloaded annual data are:
-TAVG  -- Annual Average Temperature (unweighted; effectively average of monthly averages, of daily maxes and mins.  Note that this means this is not indpendent of the other two metrics.)
+TAVG  -- Annual Average Temperature (unweighted; effectively average of monthly 
+averages, of daily maxes and mins.  Note that this means this is not independent 
+of the other two metrics.)
 EMXT  -- Extreme Maximum Annual Temperature
 EMNT  -- Extreme Minimum Temperature
 
-Note that in 2015 State of the Bay, we calculated our own annual means, mins and maxes from the daily records.
+Note that in 2015 State of the Bay, we calculated our own annual means, mins and 
+maxes from the daily records.
 ```{r}
 tdata <- longannualdata %>%
   filter(datatype %in% c('TAVG', 'EMXT', 'EMNT')) %>%
