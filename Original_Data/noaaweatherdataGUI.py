@@ -4,6 +4,9 @@ Download data from NOAA's "climate data online" repository, using API v2.
 Information on this API is available here:
     https://www.ncdc.noaa.gov/cdo-web/webservices/v2
 
+In order to use this script, you will have to request an access token from 
+NOAA, and add it to the code at line 46.  Instructions are available at the 
+API link just provided.
 
 Documentation on specific datasets is available at
 https://www.ncdc.noaa.gov/cdo-web/datasets
@@ -15,14 +18,14 @@ https://www.ncdc.noaa.gov/isd
 
 https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets
 
-It looks like the hourly data is not available by API at all, but only by 
-various manual searches.
+It looks like the hourly data is not available by API at all, but only via
+manual searches.
 
 Info on the Portland Station is here:
 https://www.ncdc.noaa.gov/cdo-web/datasets/LCD/stations/WBAN:14764/detail (Portland)
 https://www.ncei.noaa.gov/access/search/dataset-search?what=observationTypes:Land%20Surface%7CLand%2520Surface&placeId=3078&type=Zip%20Code&bbox=43.726,-70.336,43.661,-70.245&name=04103%252C%2520Portland%252C%2520ME%252C%2520USA&sdate=2018-01-01
 
-Integrated Surface Hourly (ISH) -- apprently exposed as ISD
+Integrated Surface Hourly (ISH) -- apparently exposed as ISD
 
 """
 
@@ -40,7 +43,7 @@ import requests
 
 
 #Constants and Lookup lists
-MYTOKEN = 'REPLACE ME WITH A TOKEN RECEIVED FROM NOAA'
+MYTOKEN = 'REPLACE THIS VALUE WITH AN ACCESS TOKEN'
 MONTHLENGTHS = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 PORTLAND = 'USW00014764'
 DAILY = 'GHCND:'
@@ -124,7 +127,7 @@ def MaineStations():
 def getmonthrange (year,month):
     monthlengths = MONTHLENGTHS
     start = date(year, month, 1).strftime('%Y-%m-%d')
-    if (year/100.0 != year/100) and (year/4.0 == year/4):
+    if (year/100 != year//100) and (year/4 == year//4):
         # it's a leapyear
         monthlengths[1]=29
     else:
@@ -236,7 +239,7 @@ class NOAAWeatherApp(tk.Frame):
         # App constructor function builds the user interface
 
         tk.Frame.__init__(self, master)   # Constructor for the parent class.
-        self.master.title('Online Access for NOAA Historic Weather Data ONLY WORKS FOR HOURLY')
+        self.master.title('Online Access for NOAA Historic Weather Data')
         self.grid(column=0, row=0, sticky=(tk.N, tk.W, tk.E, tk.S))
         self.master.resizable(False, False)
         
