@@ -35,7 +35,7 @@ We also have only between 2000 and 3000 hourly observations from several years i
 the 1960s.
 What I see in those years is  
 1. Time shift from splitting at even hours to spliting a XX:51  
-2. SY_MT results begin to duplicate hourly values at 6 or 12 hour intervals. 
+2. SY_MT results begin to duplicate hourly values at six or twelve hour intervals. 
    From 1996 through 2004, that code is ALMOST always associated with 0:00, 6:00, 
    12:00, or 18:00 observations.  There is a secondary peak of occurrence around 
    the three hour intervals as well, mostly 1997 through 2001.  A scattering of
@@ -45,11 +45,11 @@ What I see in those years is
 SAO appears to offer a complete record from 1948 through 1965.  From 1966 through 
 1972, it provided complete records, but only every three hours (which suggests other 
 records may be needed for this period).  The record is again NEARLY complete, with 
-missing observations around the 0,6,12, and 18 hour slots, through 1995.  About 
-half way through 1996, the SAO data ends.
+missing observations around the zero, six, twelve, and 18 hour slots, through 1995.
+About half way through 1996, the SAO data ends.
 
-SY-SA data begins in 1973, and continues with (nearly) complete data from 0,6, 12, 
-and 18 hours into (mid?) 1996.
+SY-SA data begins in 1973, and continues with (nearly) complete data from zero, six, 
+twelve, and 18 hours into (mid?) 1996.
 
 FM15 looks complete or nearly so for (mid?) 1996 through 2019, but with holes in 
 some years and some hours.
