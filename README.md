@@ -27,12 +27,12 @@ We principally used two different data sets, both accessed through the API.
 ## Data Analysis
 [Growing Season](./Analysis/Analysis_of_length_of_growing_season_3.Rmd)  
 [Number of high and low temperatures and high rainfall days](Frequency_Analysis_2.Rmd)  
-[Annual Temperature Extreams](Analysis_of_max_min_and_averages.Rmd)  
+[Annual Temperature Extremes](Analysis_of_max_min_and_averages.Rmd)  
 
 ## Graphics
 [Growing Season](length_of_growing_season_3.Rmd)  
 [Frequency of Extreme Events](Frequency_Analysis_Graphics.Rmd)  
 [Frequency of Extreme Events, Revised](Frequency-Analysis-Single-Graphics.Rmd)  
-[Annual Temperature Extreams](max_min_and_averages.Rmd)  
-[Annual Temperature Extreams, Revised](max_min_and_averages_single_graphics.Rmd)  
+[Annual Temperature Extremes](max_min_and_averages.Rmd)  
+[Annual Temperature Extremes, Revised](max_min_and_averages_single_graphics.Rmd)  
 
