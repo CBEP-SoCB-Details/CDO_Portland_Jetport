@@ -2,7 +2,7 @@
 # Data downloaded using noaaweatherdataGUI.py.
 CBEP uses a custom Python program to download data from NOAA's online data
 repositories.  Specifically, data were accessed through NOAA's National Centers
-for Environnmental Information.
+for Environmental Information.
 
 Here, we have downloaded daily (GHCND) , monthly (GSOM), and annual (GSOY)
 weather summaries via API v2. Information on this API is available here:
@@ -32,7 +32,7 @@ remained consistent.
 The program is fairly slow for long data series, since  it usually submits HTTP
 requests for data on monthly intervals.  In our experience, each request takes
 from three to five seconds if the system is lightly loaded, and more if there
-are are delays.  That means a decade's worth of downloads takes on the order of
+are delays.  That means a decade's worth of downloads takes on the order of
 10*12 * 4 = 480 seconds ~ 8 minutes.  In practice we are often seeing longer
 delays.
 
@@ -54,7 +54,7 @@ page refers to Climate Data Online as its source.
 Returning to CDO, we searched through the following link
 https://www.ncei.noaa.gov/access/search/data-search/global-hourly
 Which appears to offer hourly data back to 1940 dates for Portland jetport. We
-did not created python code to access these data,but that should be possible.
+did not create python code to access these data, but that should be possible.
 
 We submitted a request to CDO, requesting only precipitation data.  Original file
 downloaded March 9, 2019. by Curtis C. Bohlen. Data arrived as "2070949.csv", and
