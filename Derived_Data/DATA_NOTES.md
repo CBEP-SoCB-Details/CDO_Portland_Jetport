@@ -1,6 +1,4 @@
-######################################
-##  Derivation of "hourly_clean.xlsx" from "hourly_raw.csv"
-######################################
+#  Derivation of "hourly_clean.xlsx" from "hourly_raw.csv"
 Original files have been deleted because of their size and because we did not 
 use them in any analyses. Originals are available through CBEP.
 
